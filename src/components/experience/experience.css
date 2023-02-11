@@ -1,0 +1,134 @@
+.experience_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.experience_container>div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.experience_container>div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience_container>div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.experience_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.experience_details {
+  display: flexbox;
+  text-align: center;
+}
+
+.about_icon {
+  margin-top: 6px;
+  font-size: 1.5rem;
+}
+
+.skill-percent {
+  width: 100%;
+  background-color: #2b2b2b;
+  border-radius: 5rem;
+}
+
+.skills {
+  border-radius: 5rem;
+  text-align: right;
+  color: #fff;
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.css {
+  width: 85%;
+  background-color: var(--color-primary);
+}
+
+.js {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.bootstrap {
+  width: 95%;
+  background-color: #04aa6d;
+}
+
+.tailwind {
+  width: 75%;
+  background-color: #2196f3;
+}
+
+.react {
+  width: 80%;
+  background-color: var(--color-primary);
+}
+
+.node {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.express {
+  width: 85%;
+  background-color: var(--color-primary);
+}
+
+.mongo {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.sql {
+  width: 75%;
+  background-color: #2196f3;
+}
+/*=============== media queries md screens =============== */
+@media screen and (max-width: 1024px) {
+
+
+  .experience_container{
+    grid-template-columns: 1fr;
+  }
+  .experience_container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience_content{
+    padding: 1rem;
+  }
+}
+
+
+/*=============== media queries sm screens =============== */
+@media screen and (max-width: 600px) {
+
+  .experience_container{
+    gap: 1rem;
+    justify-content: center;
+  }
+  .experience_container > div{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

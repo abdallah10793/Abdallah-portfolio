@@ -1,0 +1,70 @@
+header{
+  height: 100vh;
+  padding-top: 6rem;
+  overflow: hidden;
+}
+.header_container{
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+/*================== CTA ===================*/
+.cta{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+/*================== socials icons ===================*/
+.header_socials{
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+/*================== ME ===================*/
+.me{
+  background: var(--color-primary);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3.8rem;
+  border-radius:14rem 1rem 0 0;
+}
+
+/*================== scroll dn ===================*/
+.scroll_down{
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  font-size: 2rem;
+}
+
+/*=============== media queries md screens =============== */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 85vh;
+  }
+
+
+}
+
+
+/*=============== media queries sm screens =============== */
+@media screen and (max-width: 600px) {
+
+  header {
+    height: 100vh;
+  }
+  .header_socials, .scroll_down{
+    display: none;
+  }
+
+}
