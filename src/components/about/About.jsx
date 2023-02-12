@@ -41,7 +41,7 @@ const about = () => {
           </div>
           <p>Ambitious and self-motivated Front-End and MERN Stack developer with experience in building responsive Websites.
             and seeking new opportunities and challenges that will expand my skills.</p>
-          <a href="#contact" className='btn btn-primary'>Hire me</a>
+          <a href="#Contact" className='btn btn-primary'>Hire me</a>
 
         </div>
 
