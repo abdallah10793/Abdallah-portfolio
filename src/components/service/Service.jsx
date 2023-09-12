@@ -18,7 +18,7 @@ const services = () => {
           <ul className="service_list">
             <li>
               <FaCheckCircle className='service_icon' />
-              <p> Photoshop Photo editing and background remove.</p>
+              <p>Photoshop Photo editing and background remove.</p>
             </li>
             <li>
               <FaCheckCircle className='service_icon' />
